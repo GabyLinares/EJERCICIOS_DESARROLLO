@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="datosBasicos" action="/inicio.html">
+        <h1><img src="/assets/images/bx-child.svg" width="100px">Datos Básicos</h1>
+        <label for="perfil">
+            Describa su perfil
+        </label> <br>
+        <textarea id="perfil" rows="10" cols="30"></textarea> <br>
+        <label for="tipoI">Tipo de Identificacion:</label>
+        <select input id="tipoI">
+            <option value="0" disabled>Seleccione un Tipo de Documento</option>
+            <option value="NUIP">Numero Unico de Identificacion (NUIP)</option>
+            <option value="Tarjeta de Identidad">Tarjeta de Identidad (TI)</option>
+            <option value="Cedula de Ciudadania">Cedula de Ciudadania (CC)</option>
+            <option value="Cedola de Extranjeria">Cedula de Extranjeria</option>
+        </select>
+        <input id="tipoI">
+        <label for="numI">
+            Número de identificación
+        </label>
+        <input id="numI">
+        <label for="apellidos">
+            Apellidos
+        </label>
+        <input id="apellidos" type="text" name="apellidos">
+        <label for="nombres">
+            Nombres
+        </label>
+        <input id="nombres" type="text" name="nombres">
+        <label for="genero">
+            Género
+        </label><br>
+        <input id="genero" type="radio" name="genero" checked>F <br>
+        <input id="genero" type="radio" name="genero">M <br>
+        <label for="eCivil">
+            Estado Civil
+        </label> <br>
+        <input id="eCivil" type="radio" name="eCivil">Casado <br>
+        <input id="eCivil" type="radio" name="eCivil">Soltero <br>
+        <input id="eCivil" type="radio" name="eCivil">Divorciado <br>
+        <input id="eCivil" type="radio" name="eCivil">Viudo <br>
+        <label for="numContacto">
+            Número telefónico de contacto
+        </label>
+        <input id="numContacto">
+        <label for="direccion">
+            Dirección de residencia
+        </label>
+        <input id="direccion" type="text" name="direccion">
+        <label for="corContacto">
+            Correo electrónico de contacto
+        </label>
+        <input id="corContacto">
+        <label>¿Qué te gusta hacer en tu tiempo libre?</label>
+    <input type="checkbox" id="series" name="series">
+    <label for="series">Ver Series</label>
+    <input type="checkbox" id="jugar" name="jugar">
+    <label for="jugar">Jugar Videojuegos</label>
+    <input type="checkbox" id="deportes" name="deportes">
+    <label for="deportes">Hacer Deporte</label> <br>
+    <label for="archivo">Ingrese aquí su archivo</label>
+    <input type="file" id="archivo">
+    </form>
+</body>
+
+</html>
