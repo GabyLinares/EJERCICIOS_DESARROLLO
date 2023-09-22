@@ -6,7 +6,7 @@ body {
 }
 
 h2, .moraleja {
-    color: #009999;
+    color: #15a085;
     }
 
 img {
@@ -26,4 +26,36 @@ img {
 
 .fuente, .moraleja {
     text-align: right;
+}
+
+ul {
+    list-style-image: url("../images/florecita.png");
+    text-align: left;
+    font-weight: bold;
+    list-style-position: inside;
+}
+
+/* li {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/3894/3894261.png");
+    background-repeat: no-repeat;
+} */
+
+th {
+    background-color: #15a085;
+    color: white;
+    border: 4px solid black;
+    height: 50px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    /* border: 4px solid black; */
+    margin: auto;
+    width: 500px;
+    text-align: left;
+}
+
+td {
+    border: 4px solid black;
 }
