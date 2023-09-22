@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+body {
+    font-family: Nunito;
+    text-align: center;
+}
+
+h2, .moraleja {
+    color: #009999;
+    }
+
+img {
+    max-width: 400px;
+    height: auto;
+}
+
+.fuente {
+    font-size: small;
+    font-style: italic;
+}
+
+.fabula {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.fuente, .moraleja {
+    text-align: right;
+}
