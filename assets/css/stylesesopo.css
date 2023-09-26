@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(112, 180, 158);
+    color: white;
+    padding: 40px;
+    height: fit-content;
+    width: fit-content;
+    border: 3px dashed yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: x-large;
+    overflow: hidden;
+}
+
+span {
+    color: yellow;
+    font-size: xx-large;
+    font-style: italic;
+    text-decoration: underline;
+}
