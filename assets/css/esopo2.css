@@ -1,0 +1,56 @@
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.esopo{
+    width:800px;
+    background-color: #15a085;
+    margin: 50px auto;
+    border: 4px dashed #FCFC34;
+    padding: 30px 30px 30px 30px;
+    color: #FFFFFF;
+
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.homero {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
+
+.texto {
+    text-align: justify;
+    margin-left: 30px;
+}
+
+img {
+    /* overflow-clip-margin: content-box; */
+    /* overflow: clip; */
+    width: 200px;
+}
