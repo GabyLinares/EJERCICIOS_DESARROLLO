@@ -60,3 +60,8 @@ body {
 .personaje p {
     text-align: justify;
 }
+
+ul {
+    list-style: inside;
+    list-style-image: url('../images/imagenes/lunalista.png');
+}
