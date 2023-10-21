@@ -1,55 +1,209 @@
+<!-- TALLER BOOTSTRAP -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/animal.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/css/animal.css">
 </head>
+
 <body>
-    <ul class="nav nav-tabs">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://assets.stickpng.com/images/5b4a216ec051e602a568cd7e.png" alt="AC Logo" height="100">
+      </a>
+
+      <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="animalcross.html">Home</a>
+          <a class="nav-link active" href="animalcross.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="anpersonajes.html">Personajes</a>
+          <a class="nav-link" aria-current="page" href="anpersonajes.html">Personajes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="anitems.html">Items</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li> -->
+        <form class="d-flex" role="search" style="justify-content: right;">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </ul>
+    </div>
+  </nav>
 
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://images5.alphacoders.com/130/1305917.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://wallpapercave.com/wp/wp7185780.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://gameranx.com/wp-content/uploads/2019/08/Animal-Crossing-New-Horizons-1080P-Wallpaper.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images5.alphacoders.com/130/1305917.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://wallpapercave.com/wp/wp7185780.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://gameranx.com/wp-content/uploads/2019/08/Animal-Crossing-New-Horizons-1080P-Wallpaper.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="intro">
+
+    <p class="hometext">
+      En un rincón digital donde la rutina se convierte en maravilla y la simplicidad se vuelve un tesoro, existe un
+      lugar
+      mágico que ha conquistado los corazones de jugadores de todas las edades alrededor del mundo. Animal Crossing es
+      mucho más que un simple videojuego; es una experiencia de vida virtual que ha dado forma a la comunidad de
+      jugadores
+      de una manera única y cautivadora. En esta aventura, te invitamos a sumergirte en el encanto de Animal Crossing,
+      donde la tranquilidad y la amistad se entrelazan en un mundo lleno de posibilidades.
+    </p>
+
+    <div class="titlecont">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">
+        <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/>
+      </svg>
+
+      <h5 class="hometitle">El Mundo de Animal Crossing</h5>
+
+    </div>
+
+    <p class="hometext">
+      Animal Crossing es un juego de simulación de vida que te transporta a un idílico pueblo habitado por adorables
+      personajes antropomórficos, cada uno con su propia personalidad y estilo. Desde el carismático Tom Nook hasta la
+      siempre amable Isabelle, estos habitantes animales te darán la bienvenida a un lugar donde puedes vivir la vida a
+      tu
+      propio ritmo, sin preocupaciones ni límites.
+    </p>
+
+    <div class="titlecont">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+      </svg>
+
+      <h5 class="hometitle">La Vida Cotidiana</h5>
+
+    </div>
+
+    <p class="hometext">
+      El encanto de Animal Crossing radica en su enfoque en la vida cotidiana. En tu papel como habitante del pueblo,
+      tendrás la oportunidad de decorar tu hogar, cultivar tu jardín, pescar en los ríos y océanos, atrapar insectos en
+      el
+      bosque y participar en una amplia gama de actividades relajantes. Cada día es una nueva oportunidad para descubrir
+      tesoros escondidos, desbloquear logros y socializar con los entrañables habitantes.
+    </p>
+
+    <div class="titlecont">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+        <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+      </svg>
+
+      <h5 class="hometitle">La Personalización</h5>
+
+    </div>
+
+    <p class="hometext">
+      La personalización es un aspecto clave de Animal Crossing. Desde la ropa que usas hasta la decoración de tu hogar,
+      puedes expresar tu estilo único en cada detalle. Con una amplia gama de muebles, ropa y accesorios disponibles, el
+      juego fomenta la creatividad y te permite diseñar un mundo que refleje tu personalidad.
+    </p>
+
+    <div class="titlecont">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-arms-up" viewBox="0 0 16 16">
+        <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/>
+        <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.492 1.492 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.72.72 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.72.72 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+      </svg>
+      
+      <h5 class="hometitle">La Comunidad</h5>
+
+    </div>
+
+    <p class="hometext">
+      Uno de los aspectos más notables de Animal Crossing es su fuerte enfoque en la comunidad. Puedes visitar las islas
+      de amigos, interactuar con jugadores de todo el mundo, intercambiar objetos y compartir tus creaciones. La amistad
+      es un pilar fundamental en este juego, y la posibilidad de conectarte con otros jugadores añade una dimensión
+      social
+      única.
+    </p>
+
+    <div class="titlecont">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+        <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+      </svg>
+
+      <h5 class="hometitle">Eventos Especiales y Cambio de Estaciones</h5>
+
+    </div>
+
+    <p class="hometext">
+      Animal Crossing sigue un ciclo de estaciones que imita la vida real. A medida que avanza el tiempo, el juego se
+      adapta a la temporada, ofreciendo eventos especiales, decoraciones y actividades temáticas. Cada cambio de
+      estación
+      trae consigo nuevas sorpresas y desafíos, lo que garantiza que nunca te aburras.
+    </p>
+
+  </div>
+
+  <div class="formfooter">
+
+    <div class="formwrapper">
+
+      <h5 class="hometitle" style="text-align: center; padding: 20px; font-size: x-large;">Únete a nuestro newsletter</h5>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Selecciona tu interés</option>
+        <option value="1">Promociones</option>
+        <option value="2">Juegos en camino</option>
+        <option value="3">Recibe toda la información</option>
+      </select>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Déjanos tu comentario</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
